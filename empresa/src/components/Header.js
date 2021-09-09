@@ -48,6 +48,15 @@ function Header() {
 						</Link>
 					</Typography>
 					<nav>
+					<Link
+							color="textPrimary"
+							href="#"
+							className={classes.link}
+							component={NavLink}
+							to="/admin"
+						>
+							Crud Administración Empresas
+						</Link>
 						<Link
 							color="textPrimary"
 							href="#"
@@ -55,7 +64,7 @@ function Header() {
 							component={NavLink}
 							to="/register"
 						>
-							Register
+							Registro
 						</Link>
 					</nav>
 					<Button
@@ -66,7 +75,7 @@ function Header() {
 						component={NavLink}
 						to="/login"
 					>
-						Login
+						Inicio Sesión
 					</Button>
 					<Button
 						href="#"
@@ -76,7 +85,7 @@ function Header() {
 						component={NavLink}
 						to="/logout"
 					>
-						Logout
+						Salir
 					</Button>
 				</Toolbar>
 			</AppBar>
