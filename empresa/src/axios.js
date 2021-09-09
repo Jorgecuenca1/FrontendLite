@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://api3.jorgecuenca.info/';
+const baseURL = 'https://api3.jorgecuenca.info/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
