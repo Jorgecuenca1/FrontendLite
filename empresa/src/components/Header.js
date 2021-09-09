@@ -44,7 +44,7 @@ function Header() {
 							underline="none"
 							color="textPrimary"
 						>
-							Proyecto Final Curso desarrollo de software
+							Mirar las empresas
 						</Link>
 					</Typography>
 					<nav>

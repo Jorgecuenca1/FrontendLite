@@ -55,7 +55,7 @@ const Posts = (props) => {
 									>
 										<CardMedia
 											className={classes.cardMedia}
-											image="https://source.unsplash.com/random"
+											image="https://litethinking.com/static/media/Logo_Lite_Thinking_Sin_Fondo.0aa257fa.png"
 											title="Image title"
 										/>
 									</Link>

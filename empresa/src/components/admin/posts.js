@@ -53,8 +53,9 @@ const Posts = (props) => {
 							<TableHead>
 								<TableRow>
 									<TableCell>Id</TableCell>
-									<TableCell align="left">Category</TableCell>
-									<TableCell align="left">Title</TableCell>
+									<TableCell align="left">Nit</TableCell>
+									<TableCell align="left">Nombre</TableCell>
+									<TableCell align="left">Direccion</TableCell>
 									<TableCell align="left">Action</TableCell>
 								</TableRow>
 							</TableHead>
@@ -65,15 +66,16 @@ const Posts = (props) => {
 											<TableCell component="th" scope="row">
 												{post.id}
 											</TableCell>
-											<TableCell align="left">{post.adress}</TableCell>
+											<TableCell align="left">{post.nit}</TableCell>
+											<TableCell align="left">{post.name}</TableCell>
 
 											<TableCell align="left">
 												<Link
 													color="textPrimary"
-													href={'/post/' + post.slug}
+													href={'/post/' + post.phone}
 													className={classes.link}
 												>
-													{post.name}
+													{post.adress}
 												</Link>
 											</TableCell>
 

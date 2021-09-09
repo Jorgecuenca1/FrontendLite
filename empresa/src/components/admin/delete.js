@@ -44,7 +44,7 @@ export default function Create() {
 					type="submit"
 					onClick={handleSubmit}
 				>
-					Press here to confirm delete
+					Presiona para que confirmemos el borrar la empresa
 				</Button>
 			</Box>
 		</Container>

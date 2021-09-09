@@ -111,7 +111,7 @@ export default function Create() {
 								required
 								fullWidth
 								id="name"
-								label="Post name"
+								label="Nombre empresa"
 								name="name"
 								autoComplete="name"
 								onChange={handleChange}
@@ -123,7 +123,7 @@ export default function Create() {
 								required
 								fullWidth
 								id="nit"
-								label="Post nit"
+								label="Nit de la empresa"
 								name="nit"
 								autoComplete="nit"
 								onChange={handleChange}
@@ -137,7 +137,7 @@ export default function Create() {
 								required
 								fullWidth
 								id="phone"
-								label="phone"
+								label="Telefono de la empresa"
 								name="phone"
 								autoComplete="phone"
 								value={formData.phone}
@@ -150,7 +150,7 @@ export default function Create() {
 								required
 								fullWidth
 								id="adress"
-								label="adress"
+								label="Direccion de la empresa"
 								name="adress"
 								autoComplete="adress"
 								onChange={handleChange}
