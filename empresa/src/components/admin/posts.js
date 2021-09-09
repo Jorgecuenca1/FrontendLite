@@ -105,7 +105,7 @@ const Posts = (props) => {
 											variant="contained"
 											color="primary"
 										>
-											New Post
+											NUEVA EMPRESA
 										</Button>
 									</TableCell>
 								</TableRow>

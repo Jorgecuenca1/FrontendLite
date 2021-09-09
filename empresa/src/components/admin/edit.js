@@ -84,7 +84,7 @@ export default function Create() {
 			<CssBaseline />
 			<div className={classes.paper}>
 				<Typography component="h1" variant="h5">
-					Edit Post
+					Editar Empresa
 				</Typography>
 				<form className={classes.form} noValidate>
 					<Grid container spacing={2}>
@@ -153,7 +153,7 @@ export default function Create() {
 						className={classes.submit}
 						onClick={handleSubmit}
 					>
-						Update Post
+						Actualizar Empresa
 					</Button>
 				</form>
 			</div>
